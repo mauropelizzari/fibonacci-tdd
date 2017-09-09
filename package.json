@@ -1,0 +1,30 @@
+{
+  "name": "fibonacci-tdd",
+  "version": "1.0.0",
+  "description": "Calculate Fibonacci's series of n numbers",
+  "main": "index.js",
+  "bin": {
+    "fb": "bin/fibonacci-exec.js"
+  },
+  "scripts": {
+    "test": "./node_modules/.bin/mocha --reporter spec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mauropelizzari/fibonacci-tdd.git"
+  },
+  "keywords": [
+    "fibonacci",
+    "tdd"
+  ],
+  "author": "Mauro Pelizzari",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mauropelizzari/fibonacci-tdd/issues"
+  },
+  "homepage": "https://github.com/mauropelizzari/fibonacci-tdd#readme",
+  "dependencies": {
+    "chai": "^4.1.2",
+    "mocha": "^3.5.0"
+  }
+}
