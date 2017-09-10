@@ -8,3 +8,10 @@ exports.fibonacci = (n) => {
 
   return series;
 }
+
+exports.getNumberAt = (index) => {
+  if (index<=1)
+    return
+
+  return this.fibonacci(index)[index-1];
+}

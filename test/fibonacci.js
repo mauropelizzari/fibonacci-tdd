@@ -1,5 +1,7 @@
 var expect = require("chai").expect;
-var fibonacci = require("../app/fibonacci").fibonacci;
+var fbn = require("../app/fibonacci");
+var fibonacci = fbn.fibonacci;
+var getNumberAt = fbn.getNumberAt;
 
 describe("Fibonacci's series", () => {
 
@@ -21,6 +23,10 @@ describe("Fibonacci's series", () => {
 
   it("should return [1,1,2,3] if n = 4", () => {
     expect([1,1,2,3]).to.eql(fibonacci(4));
+  });
+
+  it("should return 55 if position = 10", () => {
+    expect(55).to.eql(getNumberAt(10));
   });
 
 });

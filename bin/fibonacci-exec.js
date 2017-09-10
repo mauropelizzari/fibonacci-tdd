@@ -8,7 +8,7 @@ const rl = readline.createInterface({
   output: process.stdout
 });
 
-rl.question('Please insert the numbers of elements: ', (n) => {
+rl.question('Please insert the numbers of elements (): ', (n) => {
   var fibonacci = lib.fibonacci(n);
   console.log(fibonacci);
   rl.close();
