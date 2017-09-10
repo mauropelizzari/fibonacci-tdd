@@ -11,5 +11,18 @@ For testing
 For run application
 
 `npm install`
-
 `node bin/fibonacci-exec.js`
+
+
+
+For create a portably scripts
+
+`npm install -g`
+`fbn`
+
+For start an http server
+
+`npm start`
+`curl http://localhost:3000/fibonacci/{number}`
+
+where ``number`` is the number of the elements in the sequence.

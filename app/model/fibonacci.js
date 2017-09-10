@@ -1,3 +1,5 @@
+'use strict';
+
 exports.fibonacci = (n) => {
 
   let series = [];

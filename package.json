@@ -7,7 +7,8 @@
     "fb": "bin/fibonacci-exec.js"
   },
   "scripts": {
-    "test": "./node_modules/.bin/mocha --reporter spec"
+    "test": "./node_modules/.bin/mocha --reporter spec",
+    "start": "nodemon server.js"
   },
   "repository": {
     "type": "git",
@@ -25,6 +26,10 @@
   "homepage": "https://github.com/mauropelizzari/fibonacci-tdd#readme",
   "dependencies": {
     "chai": "^4.1.2",
+    "express": "^4.15.4",
     "mocha": "^3.5.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.12.0"
   }
 }

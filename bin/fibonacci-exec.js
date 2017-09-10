@@ -1,7 +1,11 @@
 #!/usr/bin/env node
 
+'use strict';
+
+console.log("Fibonacci Sequence!!!");
+
 const readline = require('readline')
-const lib= require('../index.js');
+const lib= require('../app/model/fibonacci');
 
 const rl = readline.createInterface({
   input: process.stdin,

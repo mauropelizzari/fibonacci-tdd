@@ -1,5 +1,5 @@
 var expect = require("chai").expect;
-var fbn = require("../app/fibonacci");
+var fbn = require("../app/model/fibonacci");
 var fibonacci = fbn.fibonacci;
 var getNumberAt = fbn.getNumberAt;
 
