@@ -4,25 +4,23 @@ Fibonacci Sequence
 TDD experiments with node, mocha and friends..
 ----------------------------------------------
 
-For testing
+- For testing
 
 `npm test`
 
-For run application
+- For run application
 
 `npm install`
 
 `node bin/fibonacci-exec.js`
 
-
-
-For create a portably scripts
+- For create a portably scripts
 
 `npm install -g`
 
 `fbn`
 
-For start an http server
+- For start an http server
 
 `npm start`
 
@@ -30,7 +28,7 @@ For start an http server
 
 where ``number`` is the number of the elements in the sequence.
 
-For Docker execution
+- For Docker execution
 
 `docker build -t fibonacci-image . `
 
