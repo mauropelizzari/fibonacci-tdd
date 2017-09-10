@@ -1,8 +1,15 @@
-Fibonacci Series
+Fibonacci Sequence
 ====================================================
 
 TDD experiments with node, mocha and friends..
 ----------------------------------------------
 
-Execute testing
+For testing
+
 `npm test`
+
+For run application
+
+`npm install`
+
+`node bin/fibonacci-exec.js`
